@@ -1,7 +1,7 @@
-# Личный проект «Седона»
+﻿# Личный проект «Седона»
 
 * Студент: [Margarita Chuvashova](https://up.htmlacademy.ru/htmlcss/18/user/482163).
-* Наставник: `Неизвестно`.
+* Наставник: [ Алексей Белов] (https://htmlacademy.ru/profile/id96038)
 
 ---
 
