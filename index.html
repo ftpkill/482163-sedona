@@ -3,10 +3,124 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
+  	<header class="main-header">
+  	<nav class="main-navigation">
+  	 <a class="main-header-logo"></a>
+	 <img src="" width="" height="" alt="Логотип Седона">
+    
+  		<ul class="site-navigation">
+  			<li class="site-navigation-item"><a href="#">Информация</a></li>
+  			<li class="site-navigation-item"><a href="#">Фото и видео</a></li>
+  			<li class="site-navigation-item"><a href="#">Карта штата</a></li>
+  			<li class="site-navigation-item"><a href="#">Гостиницы</a></li>
+  		</ul>
+  	</nav>
+  	</header>
+  	<main>
+  		<article class="reasons">
+  			<h1 class="reasons-title">Седона-небольшой городок в Аризоне,заслуживающий большего!</h1>
+  			<p class="reasons-descripsion">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+  		</article>
+  		<!--1-->
+  		<div class="advantage">
+  			<div class="advantage advantage-blue">
+  				<h2 class="advantage-title">Настоящий городок</h2>
+  				<div class="advantage-number">№1</div>
+  				<p class="advantage-text">Седона - не аттакцион для туристов, там течет своя жизнь</p>
+  			</div>
+  		</div>
+  		<!--2-->
+  		<section class="recommendations">
+  		<ul>
+  			<li class="recommendations-item motel">
+  				<h2>Жилье</h2>
+  				<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+  			</li>
+  			<li class="recommendations-item food">
+  				<h2>Еда</h2>
+  				<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+  			</li>
+  			<li class="recommendations-item souvenir">
+  				<h2>Сувениры</h2>
+  				<p>Не только китайского, но и местного производства!</p>
+  			</li>
+  		</ul>
+  		</section>
+  		<!--3-->
+  		<div class="advantage">
+  			<div class="advantage-blue">
+  			<h2 class="advantage-title">Там есть мост дьявола</h2>
+  			<div class="advantage-number">№2</div>
+  			<p class="advantage-text">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+  			</div>
+  		</div>
+  		<section class="advantage">
+  			<ul class="advantage-gray">
+  				<li class="advantage-item">
+  					<h2 class="advantage-title">Небольшая площадь</h2>
+  					<div class="advantage-number">№3</div>
+  					<p class="advantage-text">Все достопримечательности находятся очень близко</p>
+  				</li>
+  				<li class="advantage-item">
+  					<h2 class="advantage-title">Красивая дорога</h2>
+  					<div class="advantage-number">№4</div>
+  					<p class="advantage-text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+  				</li>
+  				<li class="advantage-item">
+  					<h2 class="advantage-title">Мало туристов</h2>
+  					<div class="advantage-number">№5</div>
+  					<p class="advantage-text">Большинство едет в Гранд Каньон и толпится там</p>
+  				</li>
+  			</ul>
+  		</section>
+  		<div class="seach">
+  			<h2 class="seach-title">Заинтересовались?</h2>
+  			<p class="seach-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостинниц в Седоне</p>
+  			<button type="button" class="btn btn-search">Поиск гостиницы в Седоне</button>
+  		</div>
+  		<div class="map-sedona">Интерактивная карта</div>
+  		<form action="" method="get">
+  			<div class="seach-form-row">
+				<label for="search-date-check-in">Дата заезда</label>
+				<input id="search-date-check-in" name="search-date-check-in" type="date" value="2017-04-24">
+			</div>
+			<div class="seach-form-row">
+				<label for="search-date-check-out">Дата выезда</label>
+				<input id="search-date-check-out" name="search-date-check-out" type="date" value="2017-07-04">
+			</div>
+			<div>
+				<label for="search-adult">Взрослые</label>
+				<button class="int-input-control control-decrement" formtarget="search-adult">-</button>
+				<input id="search-adult" type="text" name="search-adult" value="2">
+				<button class="int-input-control control-increment" formtarget="search-adult">+</button>
+			</div>
+			<div>
+				<label for="search-child">Дети</label>
+				<button class="int-input-control control-decrement" formtarget="search-child">-</button>
+				<input  id="search-child" type="text" name="search-child" value="0">
+				<button class="int-input-control control-increment" formtarget="search-child">+</button>
+			</div>
+			<div><input type="submit" value="Найти"></div>		
+  		</form>
+  	</main>
+  	<footer class="main-footer">
+  			<div>
+  				<a class="hashtag" href="#">#Visitsedona</a>
+  			</div>
+  			<section class="social">
+  				<a href="#" class="social-twitter social-button">Twitter</a>
+  				<a href="#" class="social-facebook social-button">Facebook</a>
+  			    <a href="#" class="social-youtube social-button">Youtube</a>
+  			</section>
+  		</footer>
+  		<div>
+  			<div class="created-by">Website by</div>
+  			<div>
+  			<a><img src="" width="" height="" alt=""></a>
+  			</div>
+  		</div>
   </body>
 </html>
