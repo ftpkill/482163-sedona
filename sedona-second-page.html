@@ -20,7 +20,7 @@
     </header>
     <main>
       <form action="/echo" method="get" class="filter-infrastructure">
-        <h2>Инфрастуктура:</h2>
+        <div class="infrastructure"><h2>Инфрастуктура:</h2></div>
         <div>
           <input type="checkbox" name="swimming-pool" id="filter-swimming-pool" checked>
           <label for="filter-swimming-pool">Бассейн</label>
@@ -33,7 +33,7 @@
           <input type="checkbox" name="wi-fi" id="filter-wi-fi">
           <label for="filter-wi-fi">Wi-fi</label>
         </div>
-        <h2>Тип жилья:</h2>
+        <div class="type"><h2>Тип жилья:</h2></div>
         <div>
           <input type="checkbox" name="hotel" id="filter-hotel" checked>
           <label for="filter-hotel">Гостиница</label>
@@ -48,8 +48,14 @@
         </div>
         <div>
           <label for="filter-days">Стоимость в сутки (P):</label>
-          <span>От 0</span><span>До 3000</span>
-          <input type="range" name="days" id="filter-days" min="1" max="3000" step="1">
+           <input type="text" name="from" placeholder="От 0"> <input type="text" name="before" placeholder="До 3000">
+          <div class="range">
+            <div class="line">
+              <span class="control"></span>
+              <div class="line-filled"></div>
+              <span class="control"></span>
+            </div>
+          </div>
         </div>
         <button type="button" class="btn btn-filter">Показать</button>
       </form>
@@ -136,9 +142,7 @@
       </section>
     </main>
     <footer class="main-footer">
-        <div>
           <a class="hashtag" href="#">#Visitsedona</a>
-        </div>
         <section class="social">
           <a href="#" class="social-twitter social-button">Twitter</a>
           <a href="#" class="social-facebook social-button">Facebook</a>
@@ -146,8 +150,7 @@
         </section>
       <div>
         <div class="created-by">Website by</div>
-        <div>
-        <a><img src="img.jpg" width="" height="" alt=""></a>
+        <div class="html-academy-image">
         </div>
       </div>
     </footer>
