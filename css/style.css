@@ -1,0 +1,25 @@
+
+body {
+	font-size: 14px;
+	font-family: "PTSans";
+	color: #000000;
+	font-weight: normal;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+.reasons-title h1{
+	font-size: 21px;
+	font-family: "PTSans";
+	color: #000000;
+	font-weight: bold;
+	line-height: 26px;
+	text-transform: uppercase;
+}
+h2.advantage-title-white {
+	font-size: 21px;
+	font-family: "PTSans";
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 21px;
+	text-transform: uppercase;
+}
