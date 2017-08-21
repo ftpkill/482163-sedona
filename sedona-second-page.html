@@ -20,40 +20,33 @@
     </header>
     <main>
       <form action="/echo" method="get" class="filter-infrastructure">
-        <div class="infrastructure"><h2>Инфрастуктура:</h2></div>
-        <div>
+        <h2 class="infrastructure">Инфрастуктура:</h2>
+        <div class="checkbox-infrastructure">
           <input type="checkbox" name="swimming-pool" id="filter-swimming-pool" checked>
           <label for="filter-swimming-pool">Бассейн</label>
-        </div>
-        <div>
           <input type="checkbox" name="parking" id="filter-parking">
           <label for="filter-parking">Парковка</label>
-        </div>
-        <div>
           <input type="checkbox" name="wi-fi" id="filter-wi-fi">
           <label for="filter-wi-fi">Wi-fi</label>
         </div>
-        <div class="type"><h2>Тип жилья:</h2></div>
-        <div>
+        <h2 class="type">Тип жилья:</h2>
+        <div class="checkbox-type">
           <input type="checkbox" name="hotel" id="filter-hotel" checked>
           <label for="filter-hotel">Гостиница</label>
-        </div>
-        <div>
           <input type="checkbox" name="motel" id="filter-motel" checked>
           <label for="filter-motel">Мотель</label>
-        </div>
-        <div>
           <input type="checkbox" name="apartments" id="filter-apartments" checked>
           <label for="filter-apartments">Апартаменты</label>
         </div>
-        <div>
-          <label for="filter-days">Стоимость в сутки (P):</label>
+        <div class="price">
+          <p for="filter-days">Стоимость в сутки (P):</p>
            <input type="text" name="from" placeholder="От 0"> <input type="text" name="before" placeholder="До 3000">
           <div class="range">
             <div class="line">
-              <span class="control"></span>
-              <div class="line-filled"></div>
-              <span class="control"></span>
+              <div class="line-filled">
+                <span class="control"></span>
+                <span class="control"></span>
+             </div>
             </div>
           </div>
         </div>
