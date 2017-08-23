@@ -1,27 +1,69 @@
 
 body {
+	margin: 0;
+	padding: 0;
+
 	font-size: 14px;
-	font-family: "PTSans";
+	font-family: "PT Sans Narrow", Arial, sans-serif;
 	color: #000000;
-	font-weight: normal;
+	font-weight: 400;
 	line-height: 26px;
 	text-transform: uppercase;
+
+}
+.intro {
+	width: 1200px;
+	height: 780px;
+	top: -10px;
+	position: relative;
+	background-image: url("../img/intro.jpg");
+	background-color: #ffffff;
+	background-position: top center;
+	background-repeat: no-repeat;
+
+}
+a {
+	text-decoration: none;
+}
+
 }
 .reasons-title h1{
 	font-size: 21px;
-	font-family: "PTSans";
 	color: #000000;
 	font-weight: bold;
 	line-height: 26px;
 	text-transform: uppercase;
 }
-h2.advantage-title-white {
-	font-size: 21px;
-	font-family: "PTSans";
-	color: #ffffff;
+.main-navigation {
+	font-size: 14px;
+	line-height: 26px;
 	font-weight: bold;
-	line-height: 21px;
-	text-transform: uppercase;
+	color: #000000;
+
+	background-color: #ffffff;
+}
+.main-navigation a ,
+.main-footer a {
+	color: #000000;
+}
+.main-navigation a:hover {
+	color: #81b3d2;
+}
+.main-navigation a:focus {
+	color: #b2b2b2;
+}
+
+.html-academy-logo-hover {
+ 	fill: #81b3d2;
+}
+.html-academy-logo-focus {
+	fill: #b2b2b2;
+}
+
+.site-navigation,
+.recommendations-list,
+.advantage-gray{
+	list-style: none;
 }
 .visually-hidden {
 	position: absolute;
@@ -32,3 +74,62 @@ h2.advantage-title-white {
 	margin: -1px;
 	padding: 0;
 	border: 0;
+}
+.header-center,
+.main-center,
+.footer-center {
+	width: 1200px;
+	margin: 0 auto;
+}
+.main-advantage {
+	text-align: center;
+}
+.advantage-blue {
+	background-color: #81b3d2;
+}
+.advantage-number-white,
+.advantage-text-white {
+	color: #ffffff;
+}
+h2.advantage-title-white {
+	font-size: 21px;
+	color: #ffffff;
+	font-weight: bold;
+	line-height: 21px;
+	text-transform: uppercase;
+}
+.btn-search {
+	width: 568px;
+	height: 86px;
+
+	color: #ffffff;
+	font-size: 21px;
+	line-height: 26px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+	background-color: #766357;
+	background-image: url("../img/button.png");
+	background-repeat: repeat;
+
+	border: none;
+}
+.advantage-gray {
+	background-color: #eeeeee;
+}
+.search-hotel {
+	margin: 0 auto;
+	width: 592px;
+	height: 419px;
+}
+.social-button {
+	width: 46px;
+	height: 48px;
+	background-color: #81b3d2;
+}
+.filter-infrastructure {
+	margin: 0 auto;
+	width: 1200px;
+	height: 652px;
+	background-image: url("../img/filter-background.jpg");
+}
