@@ -52,17 +52,21 @@ a {
 .main-navigation a:focus {
 	color: #b2b2b2;
 }
-
-.html-academy-logo-hover {
+.link-html-academy {
+	fill: red;
+}
+.link-html-academy:hover path {
  	fill: #81b3d2;
 }
-.html-academy-logo-focus {
+.link-html-academy:focus path {
 	fill: #b2b2b2;
 }
 
 .site-navigation,
 .recommendations-list,
-.advantage-gray{
+.advantage-gray,
+.sorting,
+.search-result-hotel {
 	list-style: none;
 }
 .visually-hidden {
@@ -130,6 +134,99 @@ h2.advantage-title-white {
 .filter-infrastructure {
 	margin: 0 auto;
 	width: 1200px;
-	height: 652px;
+	height: 220px;
 	background-image: url("../img/filter-background.jpg");
+	color: #ffffff
+}
+.search-hotel input[type="submit"] {
+	width: 458px;
+	height: 58px;
+	border: none;
+	background-color: #81b3d2;
+	font-size: 21px;
+	line-height: 26px;
+	color: #ffffff;
+}
+.site-navigation .current {
+	color:#766357;
+}
+.search-result-hotel li {
+	border: 1px solid #e5e5e5;
+}
+.back-color-hotels {
+	background-color: #fefefe;
+}
+.hotel-read-more {
+	width: 110px;
+	height: 27px;
+	color: white;
+	background-color: #81b3d2;
+}
+.hotel-read-more:hover {
+	background-color: #669ec0;
+}
+.hotel-read-more:focus {
+	color: #88b6d1;
+	background-color: #5496bd;
+}
+.hotel-book-it {
+	width: 142px;
+	height: 27px;
+	color: white;
+	background-color: #766357;
+}
+.hotel-book-it:hover {
+	background-color: #604e43;
+}
+.hotel-book-it:focus {
+	color: #857871;
+	background-color: #503e33;
+}
+.hotel-title a {
+	font-size: 21px;
+	color: #000000;
+}
+.hotel-title a:hover{
+	color: #81b3d2;
+}
+.hotel-title a:focus{
+	color: #b2b2b2;
+}
+.hotel-price {
+	color: #81b3d2;
+}
+.hotel-type,
+.hotel-rating-search {
+	color: #b2b2b2;
+	border-bottom: 1px dotted #81b3d2;
+}
+.hotel-type:hover,
+.hotel-rating-search:hover {
+	color: #81b3d2;
+}
+.hotel-type:focus,
+.hotel-rating-search:focus {
+	color: #000000;
+	border: none;
+}
+.star {
+	width: 18px;
+	height: 17px;
+	display: block;
+	background-image: url("../img/star.svg");
+}
+.hotel-rating {
+	width: 110px;
+	height:27px;
+	color: #666666;
+	background-color: #f2f2f2;
+}
+.btn-filter {
+	width: 137px;
+	height: 36px;
+	color: white;
+	background-color: transparent;
+	border: 2px solid white;
+	text-transform: uppercase;
+
 }
