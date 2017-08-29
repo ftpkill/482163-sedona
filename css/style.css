@@ -9,13 +9,14 @@ body {
 	font-weight: 400;
 	line-height: 26px;
 	text-transform: uppercase;
+	min-height: 1200px;
 
 }
 .intro {
 	width: 1200px;
 	height: 780px;
-	top: -10px;
-	position: relative;
+	top: -60px;
+	/*position: relative;*/
 	background-image: url("../img/intro.jpg");
 	background-color: #ffffff;
 	background-position: top center;
@@ -113,7 +114,6 @@ h2.advantage-title-white {
 	font-weight: bold;
 
 	background-color: #766357;
-	background-image: url("../img/button.png");
 	background-repeat: repeat;
 
 	border: none;
@@ -228,5 +228,175 @@ h2.advantage-title-white {
 	background-color: transparent;
 	border: 2px solid white;
 	text-transform: uppercase;
+}
+.search-date-check-in ,
+.search-date-check-out {
+	background-color: #f2f2f2;
+	width: 346px;
+	height: 38px;
+}
+.search-date-check-in:hover,
+.search-date-check-out:hover {
+	background-color: #ebebeb;
+	text-decoration: none;
+}
+.search-date-check-in:focus,
+.search-date-check-out:focus {
+	background-color: #ffffff;
+}
+ /*.....КАЛЕНДАРЬ НЕ ПОНЯТНО КАК ВСТАВИТЬ....
+.open-calendar {
+	position: absolute;
+	z-index: 2;
+	background-image: url("../img/calendar.svg");
+	width: 25px;
+	height:25px;
+}
+.search-date-check-in {
+	position: relative;
+	padding-left: 20px;
+}
+.to-find{
+	width: 458px;
+	height: 58px;
+	font-size: 21px;
+	line-height: 26px;
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #81b3d2;*/
+}
+.to-find:hover {
+	background-color: #669ec0;
+}
+.to-find:focus {
+	outline: none;
+	color: #7aadcb;
+	background-color: #5496bd;	
+}
+.search-hotel-wrapper {
+	position: relative;
+}
+.search-hotel {
+	position: absolute;
+	background-color: #ffffff;
+	/*font-size: 0;
+	line-height: 0;*/
+	left: 316px;
+	right: auto;
+	top: -601px;
+	padding-top: 55px;
+	padding-left: 55px;
+	padding-right: 55px;
+	padding-bottom: 55px;
+	width: 458px;
+	height: 288px;
+}
 
+
+/*----------сеточные стили-------*/
+.main-navigation ul {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 100%;
+	min-height: 56px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.site-navigation li {
+	width: 20%;
+	margin: 0;
+	padding: 0;
+}
+
+.main-header-logo {
+	width: 138px;
+	height: 70px;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.info-menu:first-child {
+	text-align: left;
+	margin-left: 6%;
+}
+.info-photo:nth-child(2) {
+	text-align: left;
+	margin-right: 4%;
+}
+.info-map:nth-child(3) {
+	text-align: right;
+	margin-left: 4%;
+}
+.info-hotels:last-child {
+	text-align: right;
+	margin-right: 6%;
+}
+
+.reasons-sedona {
+	position: absolute;
+	top: 660px;
+	right: 480px;
+}
+.advantage-blue {
+	width: 400px;
+	height: 256px;
+	padding-top: 50px;
+}
+.advantage-2 {
+	flex-direction: row-reverse;
+}
+.advantage-1,
+.advantage-2 {
+	display: flex;
+}
+}
+.recommendations {
+	width: 1200px;
+	min-height: 330px;
+}
+.recommendations-list {
+	display: flex;
+	justify-content: space-between;	
+	margin-left: 6%;
+	margin-right: 6%;
+}
+.recommendations-item {
+	padding-top: 60px;
+}
+.advantage-gray {
+	width: auto;
+	min-height: 257px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.advantage-item {
+	margin: 0 auto;
+	padding-top: 43px;	
+}
+.main-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #ffffff;
+	opacity: 0.902;
+}
+.filter-infrastructure {
+	outline: 2px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+.hotel-sort-list {
+	display: flex;
+	justify-content: space-around;
+}
+.search-result-hotel {
+	display: flex;
+	outline: 2px solid red;
+	flex-direction: column;
 }

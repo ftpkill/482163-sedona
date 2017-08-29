@@ -10,36 +10,37 @@
   <body>
     <header class="main-header header-center">
     <nav class="main-navigation">
-     <a class="main-header-logo"></a>
+     <a class="main-header-logo">
       <img src="img/logo-sedona.png" width="138" height="70" alt="Логотип Седона">
+      </a>
       <ul class="site-navigation">
-        <li class="site-navigation-item"><a href="#">Информация</a></li>
-        <li class="site-navigation-item"><a href="#">Фото и видео</a></li>
-        <li class="site-navigation-item"><a href="#">Карта штата</a></li>
-        <li class="site-navigation-item current">Гостиницы</li>
+        <li class="site-navigation-item info-menu"><a href="#">Информация</a></li>
+        <li class="site-navigation-item info-photo"><a href="#">Фото и видео</a></li>
+        <li class="site-navigation-item info-map"><a href="#">Карта штата</a></li>
+        <li class="site-navigation-item current info-hotels">Гостиницы</li>
       </ul>
     </nav>
     </header>
     <main class="main-center">
       <form action="/echo" method="get" class="filter-infrastructure">
-        <h2 class="infrastructure">Инфрастуктура:</h2>
-        <div class="checkbox-infrastructure">
+        <fieldset class="checkbox-infrastructure">
+          <h2 class="infrastructure">Инфрастуктура:</h2>
           <input type="checkbox" name="swimming-pool" id="filter-swimming-pool" checked>
           <label for="filter-swimming-pool">Бассейн</label>
           <input type="checkbox" name="parking" id="filter-parking">
           <label for="filter-parking">Парковка</label>
           <input type="checkbox" name="wi-fi" id="filter-wi-fi">
           <label for="filter-wi-fi">Wi-fi</label>
-        </div>
-        <h2 class="type">Тип жилья:</h2>
-        <div class="checkbox-type">
+        </fieldset>
+        <fieldset class="checkbox-type">
+          <h2 class="type">Тип жилья:</h2>
           <input type="checkbox" name="hotel" id="filter-hotel" checked>
           <label for="filter-hotel">Гостиница</label>
           <input type="checkbox" name="motel" id="filter-motel" checked>
           <label for="filter-motel">Мотель</label>
           <input type="checkbox" name="apartments" id="filter-apartments" checked>
           <label for="filter-apartments">Апартаменты</label>
-        </div>
+        </fieldset>
         <div class="price">
           <p for="filter-days">Стоимость в сутки (P):</p>
            <input type="text" name="from" placeholder="От 0"> <input type="text" name="before" placeholder="До 3000">
@@ -68,7 +69,7 @@
               <a href="#" class="hotel-type">По типу</a>
             </li>
             <li class="hotel-sort-item">
-              <a href="#" class="hotel-rating-search">По рейтингу</a>
+              <a href="#" class="hotel-rating">По рейтингу</a>
             </li>
           </ul>
         </div>
@@ -134,7 +135,6 @@
                   <a href="#" class="hotel-read-more">Подробнее</a>
                   <a href="#" class="hotel-book-it">Забронировать</a>
                   <span class="hotel-rating">Рейтинг: 9.2</span>
-                  <span class="star"></span>
                   <span class="star"></span>
                 </div>
               </div>
