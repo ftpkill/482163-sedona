@@ -204,6 +204,8 @@ a {
 	padding-left: 0;
 }
 .social-button {
+	display: inline-block;
+	position: relative;
 	width: 46px;
 	height: 48px;
 	background-color: #81b3d2;
@@ -215,34 +217,47 @@ a {
 	background-color: #5496bd;
 }
 .social-twitter {
-	display: inline-block;
 	vertical-align: top;
-	background-image: url("../img/twitter.svg");
-	background-color: #81b3d2;
-	background-repeat: no-repeat;
-	background-position: center;
+	fill: #ffffff;
+	position: absolute;
+	top: 13px;
+	left: 12px;
+}
+.social-twitter:focus,
+.social-facebook:focus,
+.social-youtube:focus {
+	fill: #88b6d1;
 }
 .social-facebook {
-	display: inline-block;
-	vertical-align: top;
-	background-image: url("../img/fb-icon.svg");
-	background-color: #81b3d2;
-	background-repeat: no-repeat;
-	background-position: center;
+	position: absolute;
+	fill: #ffffff;
+	top: 12px;
+	left: 16px;
 }
 .social-youtube {
-	display: inline-block;
-	vertical-align: top;
-	background-image: url("../img/youtube.svg");
-	background-color: #81b3d2;
-	background-repeat: no-repeat;
-	background-position: center;
+	top: 13px;
+	left: 14px;
+	position: absolute;
+	fill: #ffffff;
+}
+.social {
+	padding-left: 16px;
+	padding-left: -7px;
 }
 .hashtag {
 	font-size: 21px;
 	line-height: 26;
 	font-weight: bold;
 	color: #000000;
+}
+.visit {
+	padding-left: 17px;
+}
+.html-academy-image {
+	display: flex;
+    margin-bottom: -2px;
+    margin-right: -14px;
+    align-items: center;
 }
 .filter-infrastructure {
 	margin: 0 auto;
