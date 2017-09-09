@@ -720,6 +720,9 @@ input[type="checkbox"]:disabled + label::before {
   line-height: 26px;
   font-weight: bold; 
 }
+.search-date-check-in-out:focus {
+  border: 1px solid #ebebeb;
+}
 .open-calendar {
   border: 0;
   outline: none;
