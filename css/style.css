@@ -722,6 +722,7 @@ input[type="checkbox"]:disabled + label::before {
 }
 .search-date-check-in-out:focus {
   border: 1px solid #ebebeb;
+  box-sizing: border-box;
 }
 .open-calendar {
   border: 0;
