@@ -224,9 +224,9 @@ a {
 .btn-search:hover {
   background-color: #604e43;
 }
-.btn-search:activ {
+.btn-search:active {
   background-color: #503e33;
-  color: #857871;
+  color: #928a85;
 }
 .advantage-gray {
   margin: 0;
