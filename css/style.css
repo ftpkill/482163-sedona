@@ -55,6 +55,7 @@ a {
   line-height: 36px;
   margin-bottom: 30px;
   font-weight: bold;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 .main-navigation ul {
   display: -webkit-box;
@@ -209,7 +210,7 @@ a {
   height: 86px;
   color: #ffffff;
   padding-bottom: 7px;
-  font-size: 18px;
+  font-size: 21px;
   line-height: 26px;
   text-transform: uppercase;
   font-weight: bold;
@@ -218,6 +219,7 @@ a {
   border: none;
   margin-top: 45px;
   cursor:pointer;
+  font-family: "PT Sans", "Arial", sans-serif;
 }
 .btn-search:hover {
   background-color: #604e43;
@@ -387,7 +389,7 @@ a {
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
-  font-family: "PT Sans",sans-serif,Arial;
+  font-family: "PT Sans",Arial,sans-serif;
 }
 .site-navigation .current {
   color:#766357;
@@ -570,6 +572,7 @@ a {
 .search-date-check-in-out,
 .search-adult-form,
 .search-child-form  {
+  font-family: "PT Sans", "Arial", sans-serif;
   background-color: #f2f2f2;
   width: 345px;
   height: 38px;
@@ -657,6 +660,7 @@ input[type="checkbox"]:disabled + label::before {
   border: none;
   cursor: pointer;
   text-transform: uppercase;
+  font-family: "PT Sans", "Arial", sans-serif;
   }
 .to-find:hover {
   background-color: #669ec0;
@@ -1345,7 +1349,7 @@ input[type="checkbox"]:disabled + label::before {
   color: #b2b2b2;
 }
 .hotel-buttons {
-  margin-top: 16px;
+  margin-top: 11px;
 }
 .hotel-book-it,
 .hotel-read-more {
